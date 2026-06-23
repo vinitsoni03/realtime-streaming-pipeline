@@ -1,0 +1,20 @@
+{
+  "widgets": [
+    {
+      "type": "metric",
+      "x": 0,
+      "y": 0,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "metrics": [
+          ["AWS/Kinesis", "PutRecords.Latency", "StreamName", "vinit-data-stream-prod"]
+        ],
+        "view": "timeSeries",
+        "stacked": false,
+        "region": "ap-south-1",
+        "title": "Put Records Latency"
+      }
+    }
+  ]
+}
